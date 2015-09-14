@@ -18,3 +18,7 @@ ngCountryStateSelect
 <div ng-model="vm.country" country-select></div>
 <div country="{{ vm.country }}" ng-model="vm.state" state-select></div>
 ```
+
+# Upcoming Updates
+1. Use country codes
+2. Add SQL country codes and states
