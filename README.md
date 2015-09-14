@@ -12,9 +12,6 @@ ngCountryStateSelect
 
 # Usage
 ```html
-<pre>
 <div ng-model="vm.country" country-select></div>
-
 <div country="{{ vm.country }}" ng-model="vm.state" state-select></div>
-</pre>
 ```
