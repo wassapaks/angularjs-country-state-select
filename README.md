@@ -1,5 +1,8 @@
 # angularjs-country-state-select
-An angularjs directive package for selecting country and display its corresponding state.
+An angularjs directive package for selecting country and display its corresponding state. Credits to Abhishek Kaushik.
+
+by <a href="http://www.efrenbautista.com">Efren Bautista Jr</a>
+
 
 # How to install
 Install usering bower:
