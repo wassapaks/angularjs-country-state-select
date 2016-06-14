@@ -267,8 +267,11 @@ angular.module('ngCountryStateSelect', [])
             }
         }
     })
-    .directive('countrySelect', function(src){
+    .directive('countrySelect', countryDirective)
+    .directive('stateSelect', stateDirective);
 
+countryDirective.$inject = ['src'];
+function countryDirective(src) {
     function countryController() {
         var self = this;
         self.country = [];
@@ -299,9 +302,10 @@ angular.module('ngCountryStateSelect', [])
             ctrl.init();
         }
     };
+}
 
-}).directive('stateSelect', function(src,$timeout){
-
+stateDirective.$inject = ['src', '$timeout'];
+function stateDirective(src,$timeout) {
     function stateController() {
         src.init();
         var self = this;
@@ -356,4 +360,4 @@ angular.module('ngCountryStateSelect', [])
             });
         }
     };
-});
+}
