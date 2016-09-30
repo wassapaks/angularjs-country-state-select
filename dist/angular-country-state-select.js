@@ -336,7 +336,7 @@ function stateDirective(src,$timeout) {
         replace: true,
         scope: {
             country: '@',
-            ngModel: '='
+            ngModel: '@'
         },
         controller: stateController,
         controllerAs: 'sc',
