@@ -176,7 +176,7 @@ angular.module('ngCountryStateSelect', [])
                 s_a[163]="Drenthe|Flevoland|Friesland|Gelderland|Groningen|Limburg|Noord-Brabant|Noord-Holland|Overijssel|Utrecht|Zeeland|Zuid-Holland";
                 s_a[164]="Netherlands Antilles";
                 s_a[165]="Iles Loyaute|Nord|Sud";
-                s_a[166]="Auckland||Canterbury|Hawke's Bay|Mariborough|Nelson|Otago|Southland|Taranaki|Wellington|Westland County|Westland";
+                s_a[166]="Auckland|Canterbury|Hawke's Bay|Mariborough|Nelson|Otago|Southland|Taranaki|Wellington|Westland County|Westland";
                 s_a[167]="Atlantico Norte|Atlantico Sur|Boaco|Carazo|Chinandega|Chontales|Esteli|Granada|Jinotega|Leon|Madriz|Managua|Masaya|Matagalpa|Nueva Segovia|Rio San Juan|Rivas";
                 s_a[168]="Agadez|Diffa|Dosso|Maradi|Niamey|Tahoua|Tillaberi|Zinder";
                 s_a[169]="Abia|Abuja Federal Capital Territory|Adamawa|Akwa Ibom|Anambra|Bauchi|Bayelsa|Benue|Borno|Cross River|Delta|Ebonyi|Edo|Ekiti|Enugu|Gombe|Imo|Jigawa|Kaduna|Kano|Katsina|Kebbi|Kogi|Kwara|Lagos|Nassarawa|Niger|Ogun|Ondo|Osun|Oyo|Plateau|Rivers|Sokoto|Taraba|Yobe|Zamfara";
